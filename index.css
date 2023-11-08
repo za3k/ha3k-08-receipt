@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 2em; /* To compensate for the footer */
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -6,3 +10,4 @@
     border-top: 1px solid lightgrey;
     padding: 3px;
 }
+
