@@ -1,0 +1,12 @@
+.receipt {
+    white-space: pre;
+    font-family: monospace;
+    width: fit-content;
+    padding: 0 2.5rem 0.5rem 2.5rem;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+.receipt .wide {
+    transform: translateX(50%) scaleX(2);
+    display: inline-block;
+}
