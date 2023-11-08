@@ -1,5 +1,6 @@
 body {
     padding-bottom: 2em; /* To compensate for the footer */
+    background-color: rgba(0,0,0,0.16);
 }
 
 .footer {

@@ -3,12 +3,11 @@
     font-family: Receipt, monospace;
     width: fit-content;
     padding: 0 2.5rem 0.5rem 2.5rem;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     font-size: 16pt;
+    background-image: url(paper.png);
 }
 .receipt .wide {
-    /*transform: translateX(50%) scaleX(2);
-    display: inline-block;*/
     font-stretch: expanded;
 }
 
@@ -17,4 +16,11 @@
     font-style: normal;
     font-weight: 400;
     src: url(MerchantCopy-GOXq.ttf);
+}
+@font-face {
+    font-family: Receipt;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: expanded;
+    src: url(MerchantCopyWide-z8m0.ttf);
 }
