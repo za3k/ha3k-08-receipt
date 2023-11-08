@@ -1,12 +1,20 @@
 .receipt {
     white-space: pre;
-    font-family: monospace;
+    font-family: Receipt, monospace;
     width: fit-content;
     padding: 0 2.5rem 0.5rem 2.5rem;
     border: 1px solid black;
-    font-size: 1rem;
+    font-size: 16pt;
 }
 .receipt .wide {
-    transform: translateX(50%) scaleX(2);
-    display: inline-block;
+    /*transform: translateX(50%) scaleX(2);
+    display: inline-block;*/
+    font-stretch: expanded;
+}
+
+@font-face {
+    font-family: Receipt;
+    font-style: normal;
+    font-weight: 400;
+    src: url(MerchantCopy-GOXq.ttf);
 }
